@@ -6,6 +6,7 @@
 	var/list/played_names = list() //List of names this key played under this round
 	var/byond_version = "Unknown"
 	var/datum/achievement_data/achievements
+	var/time_of_death = 0
 
 /datum/player_details/New(key)
 	achievements = new(key)
