@@ -429,6 +429,13 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 		fly = new
 		fly.Grant(C)
 
+	///Give and take the right plumbing reagent exchange recipys
+	if(C.reagents)
+		for(var/A in old_species.reagent_exchange)
+			C.reagents.RemoveElement(A)
+		for(var/A in reagent_exchange)
+			C.reagents.AddElement(A)
+
 	C.add_or_update_variable_movespeed_modifier(/datum/movespeed_modifier/species, multiplicative_slowdown=speedmod)
 
 	SEND_SIGNAL(C, COMSIG_SPECIES_GAIN, src, old_species)
