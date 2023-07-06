@@ -24,6 +24,7 @@
 	AddComponent(/datum/component/footstep, FOOTSTEP_MOB_HUMAN, 1, -6)
 	AddComponent(/datum/component/bloodysoles/feet)
 	AddElement(/datum/element/ridable, /datum/component/riding/creature/human)
+
 	GLOB.human_list += src
 
 /mob/living/carbon/human/proc/show_skills() // Bay-skills
