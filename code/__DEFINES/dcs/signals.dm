@@ -490,6 +490,8 @@
 #define COMSIG_MOB_CREAMED "mob_creamed"
 ///From /obj/item/gun/proc/check_botched()
 #define COMSIG_MOB_CLUMSY_SHOOT_FOOT "mob_clumsy_shoot_foot"
+///From /obj/machinery/plumbing/extractor/process() (datum/reagents/target, /datum/reagents/victim)
+#define COMSIG_MOB_EXTRACT_MILK "mob_extract_milk"
 
 ///When a carbon mob hugs someone, this is called on the carbon that is hugging. (mob/living/hugger, mob/living/hugged)
 #define COMSIG_CARBON_HUG "carbon_hug"
