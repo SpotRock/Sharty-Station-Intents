@@ -736,7 +736,7 @@
 	if(death_time < required_delay)
 		if(!check_rights_for(usr.client, R_ADMIN))
 			to_chat(usr, "You have been dead for [DisplayTimeText(death_time, 1)].")
-			to_chat(usr, span_warning("You must wait [DisplayTimeText(required_delay, 1)] to respawn!"))
+			to_chat(usr, ("You must wait [DisplayTimeText(required_delay, 1)] to respawn!"))
 			return FALSE
 		if(tgui_alert(usr, "You have been dead for [DisplayTimeText(death_time, 1)] out of required [DisplayTimeText(required_delay, 1)]. Do you want to use your permissions to circumvent it?", "Respawn", list("Yes", "No")) != "Yes")
 			return FALSE
