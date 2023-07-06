@@ -193,6 +193,10 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 	///List of visual overlays created by handle_body()
 	var/list/body_vis_overlays = list()
 
+	///For the plumbing reagent extractor.
+	var/list/reagent_exchange = list(/datum/element/plumbing_extractable/acid, /datum/element/plumbing_extractable/essence_of_drug)
+
+
 ///////////
 // PROCS //
 ///////////
