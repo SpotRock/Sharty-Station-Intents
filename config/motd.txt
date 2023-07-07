@@ -1,5 +1,4 @@
-<h1>Welcome to the Sharty Station!</h1>
-<i>This server is running a customized /tg/station 13 Git build.</i>
+<h1>Welcome to The Asoylum!</h1>
+<i>This Server is cool.</i>
 
 <h1><a href="https://discord.gg/JJQxqTX2zV"><b>[CLICK HERE TO JOIN THE DISCORD]</b></a></h2>
-<h1><a href="https://soyjak.party/"><b>[CLICK HERE TO JOIN THE PARTY]</b></a></h2>
