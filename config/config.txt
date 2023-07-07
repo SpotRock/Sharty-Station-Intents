@@ -253,7 +253,7 @@ CHECK_RANDOMIZER
 # RULESURL https://discord.gg/tbWXXRJUMc
 
 ## Github address
-# GITHUBURL https://github.com/SpotRock/Sharty-Station-Intents
+# GITHUBURL https://www.roblox.com/home
 
 ## Discord bot command prefix, if the discord bot is used
 # DISCORDBOTCOMMANDPREFIX ?
